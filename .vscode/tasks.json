@@ -7,7 +7,7 @@
             "label": "build",
             "type": "shell",
             "command": "gcc",
-            "args": ["-g","helloworld/helloworld.c", "-o", "helloworld/helloworld.o"],
+            "args": ["-g","base/if-else.c", "-o", "base/if-else"],
             "group": {
                 "kind": "build",
                 "isDefault": true

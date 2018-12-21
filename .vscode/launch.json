@@ -8,7 +8,7 @@
             "name": "(gdb) Launch",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/helloworld/helloworld.o",
+            "program": "${workspaceFolder}/base/if-else",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
