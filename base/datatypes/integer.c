@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdint.h>
 
 int main(int argc, char const *argv[])
 {
@@ -13,10 +14,10 @@ int main(int argc, char const *argv[])
 
     unsigned int h = 12;
 
-    __int32_t i = 15;
-    __int8_t j = 16;
-    __uint8_t k = 255;
-    __int64_t l = 1000;
+    int32_t i = 15;
+    int8_t j = 16;
+    uint8_t k = 255;
+    int64_t l = 1000;
 
     printf("%d", j);
 
